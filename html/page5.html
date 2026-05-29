@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi"
+    <head> 
+        <meta charset="UTF-8">
+        <title>Tính diện tích hình chữ nhật.</title>
+        <!--<link rel="stylesheet" href="../css/style1.css">-->
+    </head>
+    <body>
+		<script> 
+			let d,r;
+			
+            do{
+                d= Number(prompt("Nhập chiều dài"));
+                r= Number(prompt("Nhập chiều rông"));
+            }while(d<r);
+            if (d==r)
+            {window.alert(`Chiều dài ${d} cm , Chiều rộng ${r} cm. Diện tích hình vuồng ${d*d} cm `);}
+            if (d >r)
+			{window.alert(`Chiều dài ${d} cm , Chiều rộng ${r} cm. Diện tích hình chữ nhật ${d*r} cm `);}
+		</script>
+	</body>
+</html>

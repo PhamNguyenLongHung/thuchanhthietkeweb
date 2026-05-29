@@ -1,0 +1,27 @@
+table,td,tr{
+            border: 1px solid black; 
+            text-align: center;
+            
+        }
+        td,tr {
+            margin: 50px ;
+            border: 1px solid rgb(211, 159, 63);
+            padding: 10px;
+            border-radius: 5px;
+            
+        }
+        caption{
+           text-transform: uppercase;
+            font-size: 25px;
+        } 
+        table{
+            border-radius: 15px;
+            border: 1px solid gray;
+            margin: auto;
+        }
+        td{
+            border-radius: 2px;
+        }
+table{
+     background: linear-gradient(to bottom, #ccffff 0%, #66ffff 100%);
+}
