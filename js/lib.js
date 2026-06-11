@@ -1,7 +1,7 @@
 const product ={name: "Áo Thi Đấu của câu lạc bộ Manchester United",
                 price: "150USD/1 bộ",
                 description:"Được sản xuất bởi Adidas.", 
-                image:"../asset/images/aodau2627.jpg"};
+                image:"../assets/images/aodau2627.jpg"};
 function inBCC(n)
 {
     let result="";

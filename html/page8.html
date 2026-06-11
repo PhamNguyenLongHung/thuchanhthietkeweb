@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="Sản Phẩm" content="width=device-width, initial-scale=1.0">
     <title>Sản Phẩm</title>
-    <script src="../js/lib.js"></script>
+    <script src="../js/sanpham.js"></script>
+    <link rel="stylesheet" href="../css/stylejs.css">
 </head>
 <body>
         <div id="product-list"></div>
     
      <script>
-             createItem(product);
+             productList.forEach(product => {
+                 createItem(product);
+             });
     </script>
 </body>
 </html>
