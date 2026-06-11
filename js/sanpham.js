@@ -18,7 +18,7 @@ const productList =[
         name: "Áo đấu Đội tuyển WAG ",
         price: "19USD/1 bộ",
         description: "Dành cho những người hăm mộ đội WAG. Được tài trợ",
-        image: "../assets/images/wag.jpg"
+        image: "../assets/images/WAG.jpg"
     },
 
     {
@@ -53,14 +53,14 @@ const productList =[
         name: "Áo thi đấu sân nhà Đội tuyển Tây Ban Nha World Cup 2026",
         price: "84USD/1 bộ",
         description: "Dành cho những người hăm mộ đội Tây Ban Nha. Được tài trợ bởi Adidas",
-        image: "../assets/images/Taybannha.avif"
+        image: "../assets/images/taybannha.avif"
     },
 
     {
         name: "Áo thi đấu sân khách Đội tuyển Tây Ban Nha World Cup 2026",
         price: "84USD/1 bộ",
         description: "Dành cho những người hăm mộ đội Tây Ban Nha. Được tài trợ bởi Adidas",
-        image: "../assets/images/taybannhakhach.avif"
+        image: "../assets/images/Taybannhakhach.avif"
     },
 
     {
