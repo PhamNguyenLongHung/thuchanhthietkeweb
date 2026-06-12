@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông  tin sản phẩm</title>
+    <script src="../js/data.js"> </script>
+    <script src="../js/sanphamv2.js"> </script>
+</head>
+<body>
+    <div class ="container"> 
+        <img src="" alt="" id="image">
+        <h3 id="name">Tên </h3>
+        <h4 id="price">Giá</h4>
+        <p id="des">Mô tả </p>
+    </div>
+    <script>
+        const urlParamas=new URLSearchParams(window.location.search);
+
+        const productId=urlParamas.get("masp");
+
+        let found = productList.find(item => item.Id === productId);
+        {
+            document.getElementById=("name").innerHTML = found.name;
+            document.getElementById=("price").innerHTML = found.price;
+            document.getElementById=("des").innerHTML = found.description;
+            document.getElementById=("image").src = found.image;
+            document.getElementById=("image").alt = found.name; 
+        };
+    </script>
+</body>
+</html>
