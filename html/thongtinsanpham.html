@@ -6,27 +6,35 @@
     <title>Thông  tin sản phẩm</title>
     <script src="../js/data.js"> </script>
     <script src="../js/sanphamv2.js"> </script>
+    <link rel="stylesheet" href="../css/stylejs.css">
 </head>
 <body>
     <div class ="container"> 
         <img src="" alt="" id="image">
-        <h3 id="name">Tên </h3>
-        <h4 id="price">Giá</h4>
-        <p id="des">Mô tả </p>
+        <div class="info">
+            <h3 id="name">Tên </h3><br>
+            <h4 id="price">Giá</h4><br>
+            <p id="desc">Mô tả </p><br>
+            <div class="button-group">
+                <button id="buy-btn">Mua ngay</button>
+                <button id="cart-btn">Thêm vào giỏ hàng</button>
+            </div>
+        </div>
     </div>
     <script>
-        const urlParamas=new URLSearchParams(window.location.search);
+        const urlParamas = new URLSearchParams(window.location.search);
 
-        const productId=urlParamas.get("masp");
+        const productId = urlParamas.get("masp");
 
-        let found = productList.find(item => item.Id === productId);
+        let found = productList.find(item=>item.id === productId);
+        if(found)
         {
-            document.getElementById=("name").innerHTML = found.name;
-            document.getElementById=("price").innerHTML = found.price;
-            document.getElementById=("des").innerHTML = found.description;
-            document.getElementById=("image").src = found.image;
-            document.getElementById=("image").alt = found.name; 
-        };
+            document.getElementById("name").innerHTML = found.name;
+            document.getElementById("price").innerHTML = found.price;
+            document.getElementById("desc").innerHTML = found.description;
+            document.getElementById("image").src = found.image;
+            document.getElementById("image").alt = found.name; 
+        }
     </script>
 </body>
 </html>

@@ -6,9 +6,37 @@
     <title>Sản Phẩm</title>
     <script src="../js/sanpham.js"></script>
     <link rel="stylesheet" href="../css/stylejs.css">
+    <script src="../js/data.js"></script>
 </head>
 <body>
         <div id="product-list"></div>
+        <div class ="container"> 
+        <img src="" alt="" id="image">
+        <div class="info">
+            <h3 id="name">Tên </h3><br>
+            <h4 id="price">Giá</h4><br>
+            <p id="desc">Mô tả </p><br>
+            <div class="button-group">
+                <button id="buy-btn">Mua ngay</button>
+                <button id="cart-btn">Thêm vào giỏ hàng</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        const urlParamas = new URLSearchParams(window.location.search);
+
+        const productId = urlParamas.get("masp");
+
+        let found = productList.find(item=>item.id === productId);
+        if(found)
+        {
+            document.getElementById("name").innerHTML = found.name;
+            document.getElementById("price").innerHTML = found.price;
+            document.getElementById("desc").innerHTML = found.description;
+            document.getElementById("image").src = found.image;
+            document.getElementById("image").alt = found.name; 
+        }
+    </script>
     
      <script>
              productList.forEach(product => {
