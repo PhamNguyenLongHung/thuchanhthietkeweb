@@ -4,7 +4,7 @@ const productList =[
         id: "1",
         name: "Áo Thi Đấu của câu lạc bộ Manchester United",
         price: "84USD/1 bộ",
-        description: "Được sản xuất bởi Adidas. Dành cho những người hâm mộ câu lạc bộ Manchester United.",
+        description: "Dành cho những người hâm mộ câu lạc bộ Manchester United.",
         image: "../assets/images/aodau2627.jpg",
         link: "thongtinsanpham.html",
     },

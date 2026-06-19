@@ -1,0 +1,27 @@
+.chu{
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+}
+ul{
+    border:2px solid; 
+    border-radius: 20px; 
+    margin: auto;
+    padding: 20px ;
+    list-style-position: inside;
+    background: linear-gradient(to bottom right, #ff9966 0%, #ff6699 100%); 
+}
+li{
+    padding: 10px;
+    background: linear-gradient(to bottom right, #4e2814 0%, #ff6699 100%); 
+}
+.container{
+	background: linear-gradient(to top, #00cc99 0%, #66ffff 100%);
+	padding: 50px;
+	margin: 0px 15px; 
+	border-radius:15px;
+}
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
