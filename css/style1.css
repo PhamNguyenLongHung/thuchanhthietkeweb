@@ -6,14 +6,14 @@ font-size: 15px;
 line-height: 100%;
 }
 .container{
-	background: linear-gradient(to bottom, #0066ff 0%, #ccccff 100%);
+	background-color: #f0f0ef;
 	padding: 50px;
 	margin: 0px 15px; 
 	border-radius:15px;
 }
 form#frmLogin
 {
-	background: linear-gradient(to top, #0066ff 0%, #ccccff 100%);
+	background-color: #f0f0f0;
 	opacity: 0.6;
 	padding: 50px;
 	max-width: 200px;

@@ -19,7 +19,7 @@ const productList =[
 
     {
         id: "3",
-        name: "Áo đấu Đội tuyển WAG ",
+        name: "Áo đấu Đội tuyển WAG mùa Xuân 2026",
         price: "19USD/1 bộ",
         description: "Dành cho những người hăm mộ đội WAG.",
         image: "../assets/images/WAG.jpg",

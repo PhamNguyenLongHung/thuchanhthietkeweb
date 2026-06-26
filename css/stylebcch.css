@@ -1,0 +1,11 @@
+.container{
+    background-color: #e0fff7;
+    border:2px solid black;
+    border-radius: 10px;
+    border-color: #00b3b3;
+    padding: 20px;
+}
+h1{
+    color: #0e0e0d;
+    text-align: center;
+}
